@@ -494,6 +494,9 @@ double compute_func(String expression)   throws EmptyStackException{
 	  			
 	        	  st.push(n2/n1);
 	  			break;
+	          case "%":
+	        	  st.push(n2%n1);
+	  			break;
 	          case "^":
 	        	  st.push(Math.pow(n2,n1));
 	                break;
